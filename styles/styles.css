@@ -1,0 +1,117 @@
+body{
+    background-color: grey;
+}
+.form{
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.leyenda{
+    display: flex;
+    height: 5%;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+#l-header{
+    display: flex;
+    overflow: hidden;
+}
+#l-header h1{
+    font-size: 100%;
+}
+#r-header{
+    display:flex;
+}
+#r-header button{
+    display: flex;
+    overflow:hidden;
+    height: 100%;
+    width: 100%;
+    padding:4px;
+    margin-left: 10px;
+}
+.leyenda button img{
+    height: 100%;
+}
+.titulo{
+    display: flex;
+    height: 5%;
+    width: max-content;
+    overflow: hidden;
+    font-weight: bold;
+    margin-left: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titulo h1{
+    font-size: 200%;
+    margin: 0;
+}
+.descripcion{
+    height: 85%;
+    overflow:hidden;
+    display: grid;
+}
+.descripcion #imagen{
+    display: flex;
+    overflow:hidden;
+    justify-content: center;
+}
+.descripcion #imagen img{
+    width: 100%;
+    padding: 1px;
+}
+.descripcion #descripcion{
+    display: flex;
+    overflow: hidden;
+    height: fit-content;
+    margin-left:2px;
+    padding: 5px;
+}
+.descripcion #descripcion p{
+    margin: 0;
+    overflow: hidden;
+    font-size: 12px;
+}
+.creadores{
+    display: flex;
+    height: 5%;
+    padding: 6px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.creadores button{
+    display: flex;
+    overflow: hidden;
+    padding: 1px;
+    align-items: center;
+    font-size: 100%;
+    border-radius: 0;
+}
+
+footer{
+    height: 50px;
+    background-color: grey;
+    margin-top:20px;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+#contenedor-producto{
+    margin-left: 10px;
+    height: 80%;
+    width: 80px;
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+}
+#contenedor-producto h1{
+    font-size: 100%;
+}
